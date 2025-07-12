@@ -47,7 +47,14 @@ img {
     display: flex;
     justify-content: space-around;
 }
-.profile-stat-count {
+.profile-stat-count, .profile-real-name {
     font-weight: bold;
 }
 /*Profile Section*/
+
+/*Gallery*/
+
+.gallery {
+    display: grid;
+    
+}
