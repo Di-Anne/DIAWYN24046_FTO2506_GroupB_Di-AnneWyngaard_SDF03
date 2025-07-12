@@ -30,4 +30,22 @@ img {
 .profile-image > img {
     border: 10px solid rgb(13, 95, 72);
     border-radius: 50%;
+    width: 80%;
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.profile-user-settings {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-stats > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
