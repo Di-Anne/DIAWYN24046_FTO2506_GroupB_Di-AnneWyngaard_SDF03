@@ -25,4 +25,6 @@ img {
 /* Profile Section */
 .profile {
     display: flex;
+    justify-content: center;
 }
+
