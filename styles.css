@@ -32,13 +32,11 @@ img {
     border-radius: 50%;
     width: 80%;
 }
-
 .profile-details {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-
 .profile-user-settings {
     display: flex;
     justify-content: space-evenly;
@@ -49,3 +47,7 @@ img {
     display: flex;
     justify-content: space-around;
 }
+.profile-stat-count {
+    font-weight: bold;
+}
+/*Profile Section*/
