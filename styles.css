@@ -22,3 +22,7 @@ img {
     display: block;
 }
 
+/* Profile Section */
+.profile {
+    display: flex;
+}
