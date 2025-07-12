@@ -27,4 +27,7 @@ img {
     display: flex;
     justify-content: center;
 }
-
+.profile-image > img {
+    border: 10px solid rgb(13, 95, 72);
+    border-radius: 50%;
+}
