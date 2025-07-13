@@ -64,11 +64,14 @@ img {
 }
 
 .gallery-image:hover {
-    color: rgba(0, 0, 0);
     opacity: 0.5;
 }
-li{
+
+.gallery-item-info>ul {
     list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
 }
 .visually-hidden {
 display: none;
