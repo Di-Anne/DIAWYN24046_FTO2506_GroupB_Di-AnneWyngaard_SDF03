@@ -53,18 +53,17 @@ img {
 /*Profile Section*/
 
 /*Gallery*/
-
-.container-2 {
-    border: 10px solid black;
-}
-
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr)
     
 }
-
 .gallery-image {
-    width: 90%;
+    width: 100%;
+}
+
+.gallery-image:hover {
+    color: rgba(0, 0, 0);
+    opacity: 0.5;
 }
