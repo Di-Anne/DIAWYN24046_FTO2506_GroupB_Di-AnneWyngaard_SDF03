@@ -92,7 +92,29 @@ img {
     margin: 0 auto;
 }
 
+.gallery-item {
+    position: relative;
+
+}
 
 .gallery-image {
     width: 200px;
+}
+
+.gallery-item-info ul {
+    position: absolute;
+    width: 90px;
+    top: 50%;
+    right: 50%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.gallery-item-type {
+    display: none;
 }
