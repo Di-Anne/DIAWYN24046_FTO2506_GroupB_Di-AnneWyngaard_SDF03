@@ -134,6 +134,7 @@ img {
 /*Animation loader*/
 .loader {
     border: 5px solid rgb(70, 117, 103);
+    border-bottom: 5px solid #fafafa;
     border-radius: 50%;
     width: 40px;
     margin: 5px auto;
@@ -142,8 +143,8 @@ img {
     animation-iteration-count: infinite;
 }
 
-@keyframes tranform{
-    100% {transform: rotate(90deg);}
+@keyframes tranform {
+    100% {transform: rotate(360deg);}
 }
 
 
