@@ -87,8 +87,8 @@ img {
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    width: 750px;
+    gap: 10px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -96,13 +96,6 @@ img {
     position: relative;
 
 }
-
-.gallery-image:focus,
-.gallery-image:hover {
-    background: rgb(0, 0, 0, 0.8);
-    opacity: 1;
-}
-
 
 .gallery-image {
     min-height: 100%;
@@ -112,14 +105,23 @@ img {
 
 .gallery-item-info ul {
     position: absolute;
-    width: 90px;
-    top: 50%;
-    right: 50%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: 0 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     list-style: none;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
 }
 
+.gallery-item-info ul:focus,  /*Struggled to create hover effect on images in Grid*/
+.gallery-item-info ul:hover {
+   opacity: 1;
+   color: #fafafa;
+}
 .visually-hidden {
     display: none;
 }
@@ -127,3 +129,5 @@ img {
 .gallery-item-type {
     display: none;
 }
+
+/*Animation loader*/
