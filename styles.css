@@ -33,7 +33,6 @@ img {
     border: 10px solid rgb(70, 117, 103);
     border-radius: 50%;
     width: 200px;
-    object-fit: cover;
 }
 
 .profile-details {
@@ -86,25 +85,14 @@ img {
 
 /*Gallery*/
 .gallery {
+    border: 1px solid black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr)
-    
+    width: 750px;
+    margin: 0 auto;
 }
+
+
 .gallery-image {
-    width: 100%;
-}
-
-.gallery-image:hover {
-    opacity: 0.5;
-}
-
-.gallery-item-info>ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    
-}
-.visually-hidden {
-display: none;
+    width: 200px;
 }
