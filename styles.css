@@ -137,13 +137,14 @@ img {
     border-bottom: 5px solid #fafafa;
     border-radius: 50%;
     width: 40px;
-    margin: 5px auto;
     height: 40px;
-    animation-name: transform;
+    margin: 5px auto;
+    animation-name: spin;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
 }
 
-@keyframes tranform {
+@keyframes spin {
     100% {transform: rotate(360deg);}
 }
 
