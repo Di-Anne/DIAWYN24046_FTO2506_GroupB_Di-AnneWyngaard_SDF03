@@ -115,6 +115,7 @@ img {
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
+    padding: 0; /*To remove default padding of Ul where ul dots usually sit*/
     opacity: 0; /*So that list items cannot be seen i.e. only seen when hovered over*/
 }
 
